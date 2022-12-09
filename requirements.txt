@@ -16,7 +16,7 @@ bleach==3.3.0
     # via pypeline
 cchardet==2.1.7
     # via -r requirements.in
-certifi==2021.5.30
+certifi==2022.12.7
     # via requests
 cffi==1.12.2
     # via cryptography
@@ -91,7 +91,7 @@ ming==0.11.1
     # via -r requirements.in
 mock==3.0.5
     # via -r requirements.in
-https://github.com/joestump/python-oauth2/archive/b94f69b1ad195513547924e380d9265133e995fa.zip#egg=oauth2
+oauth2 @ https://github.com/joestump/python-oauth2/archive/b94f69b1ad195513547924e380d9265133e995fa.zip
     # via -r requirements.in
 oauthlib==3.0.2
     # via requests-oauthlib
@@ -148,7 +148,7 @@ pytz==2019.1
     #   ming
 qrcode==6.1
     # via -r requirements.in
-repoze.lru==0.7
+repoze-lru==0.7
     # via turbogears2
 requests==2.26.0
     # via
@@ -193,8 +193,6 @@ translationstring==1.4
     # via colander
 turbogears2==2.3.12
     # via -r requirements.in
-typing-extensions==3.10.0.2
-    # via gitpython
 urllib3==1.26.6
     # via requests
 waitress==2.0.0
